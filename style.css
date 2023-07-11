@@ -8,60 +8,164 @@
     /* background-position: center; */
 
 }
-/* /* .banner-title{ 
-    font-style: normal;
-    
-    display: flex;
-    width: 708px;
-    flex-direction: column;
-    flex-shrink: 0; */
-}  */
+.logo{
+    font-style: italic;
+    color: red;
+}
 .banner-des{
     width: 50%;
 }
-.button1{
-    padding: 10px 22px;
+.button{
+    padding: 10px 20px;
     background-color:rgb(248, 134, 153);
     border: none;
     border-radius: 5px;
     
 }
-.featured{
-    width: 80%;
-    margin: auto;
-    padding: 100px;
-
-    /* align-items: center; */
-    text-align: center;
-    justify-content: center;
-    
-    background-size: cover;
-    color:black;
-
-}
-.featured-title{
-    width: 50%;
-}
-.featured-imgs{
-    display:flex;
-    gap:20px;
+.product {
     align-items: center;
     justify-content: center;
+    /* flex-direction: row; */
 }
-.featured-img1{
+.product-title{
+    /* align-items: center; */
+    text-align: center;
+    margin-bottom: 100px;
+   
+
+}   
+.product-des{
+    /* width: 50%; */
+}
+    
+    
+
+.product-imgs{
+    display: flex;
+    height: 400px;
+    
+    
+    padding:10px ;
+    gap:10px;
+    width: 50%;
+    margin:auto;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.pink-lotus{
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+    padding: 70px 40px 0px 40px ;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 538px;
-    flex-shrink: 0;
+    
+
+
+
 }
-.featured-img2{
-    background-color: paleturquoise;
-    width: 100%;
-    border-radius: 50% 50% 0% 0% / 46% 46% 10% 10%;
+.fig-cap{
+    align-items: center;
+    text-align: center;
+    
 }
-.featured-img3{
-    background-color: rgb(227, 242, 227);
-    width: 100%;
-    border-radius: 50% 50% 0% 0% / 46% 46% 10% 10%;
+.gerbera{
+    width: 300px;
+    height: 400px;
+    padding: 70px 40px 0px 40px ;
+    object-fit: contain;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
 }
+.yellow-lotus{
+    width: 300px;
+    height: 400px;
+    padding: 70px 40px 0px 40px ;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    object-fit: contain;
+}
+
+
+
+.deal-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin:100px 0px;
+    padding: 40px;
+    background-color: rgb(255, 238, 241);
+    
+    
+
+}
+.color{
+    color: rgb(248, 83, 108);
+}
+.insta-section{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.insta-img{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    height: 300px;
+    
+}
+.subscribe-section{
+    background-image: url("./Flower Asset/bg-img2.png");
+    
+    width: 950px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 0px ;
+    padding: 130px;
+    text-align: center;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
