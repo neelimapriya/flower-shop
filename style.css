@@ -138,9 +138,22 @@
     text-align: center;
     color:black;
 }
+.new-section{
+    background-color: rgb(255, 244, 245);
+    border: 5px;
+    box-shadow: 4px gray;
+    text-align: center;
+    padding: 100px;
+    
+}
    
-
-
+.new-sec-info{
+    display: flex;
+    
+}
+.new-sec-des{
+    width: 80%;
+}
 .footer-section{
     background-color: black;
     margin: 100px 0 0 0;
