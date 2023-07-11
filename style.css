@@ -119,20 +119,56 @@
     height: 300px;
     
 }
-.subscribe-section{
-    background-image: url("./Flower Asset/bg-img2.png");
+.sub-container {
+    width: 100%;
+    height: 380px;
+    display: grid;
+    place-items: center;
     
-    width: 950px;
-    height: 400px;
-    background-repeat: no-repeat;
+}
+.sub-bg {
+    background-image: url("./Flower Asset/bg-img2.png");
     background-size: cover;
-    margin: 100px 0px ;
-    padding: 130px;
+    width: 90%;
+    height: 80%;
+    display: grid;
+    place-items: center;
+}
+.sub-txt {
     text-align: center;
+    color:black;
+}
+   
+
+
+.footer-section{
+    background-color: black;
+    margin: 100px 0 0 0;
+    padding: 100px 300px;
+    text-align: center;
+    
    
 
 }
+.footer-title{
+    color: white;
+    font-size:55px;
+    font-weight: bold;
 
+}
+
+.footer-des{
+    color: rgb(198, 198, 198);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+
+}
+.copyright{
+    color: rgba(159, 159, 159, 0.4);
+    font-size: 10px;
+
+}
 
 
 
