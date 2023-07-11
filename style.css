@@ -5,7 +5,7 @@
     background-color:rgb(254, 236, 238) ;
     
     background-size: cover;
-    /* background-position: center; */
+    
 
 }
 .logo{
@@ -25,18 +25,17 @@
 .product {
     align-items: center;
     justify-content: center;
-    /* flex-direction: row; */
+    
 }
 .product-title{
-    /* align-items: center; */
+    
     text-align: center;
     margin-bottom: 100px;
    
 
 }   
-.product-des{
-    /* width: 50%; */
-}
+
+
     
     
 
@@ -110,7 +109,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
+    
 }
 .insta-img{
     display: flex;
@@ -124,12 +123,13 @@
     height: 380px;
     display: grid;
     place-items: center;
+
     
 }
 .sub-bg {
     background-image: url("./Flower Asset/bg-img2.png");
     background-size: cover;
-    width: 90%;
+    width: 70%;
     height: 80%;
     display: grid;
     place-items: center;
@@ -137,6 +137,18 @@
 .sub-txt {
     text-align: center;
     color:black;
+}
+.label-info{
+    display: flex;
+    gap:8px;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.input-info{
+    padding: 10px 50px;
+    border:0;
 }
 .new-section{
     background-color: rgb(255, 244, 245);
@@ -149,14 +161,19 @@
    
 .new-sec-info{
     display: flex;
+    gap: 30px;
+    
     
 }
 .new-sec-des{
-    width: 80%;
+    width: 70%;
+    padding: 50px;
+    
+
 }
 .footer-section{
     background-color: black;
-    margin: 100px 0 0 0;
+    margin: 50px 0 0 0;
     padding: 100px 300px;
     text-align: center;
     
